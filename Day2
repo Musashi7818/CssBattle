@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="insiderC"></div>
+    <div class="outsiderC"></div>
+    <div class="centercu"></div>
+    <div class="outsidercu"></div>
+<style>
+  body{
+    background-color:#E0E7FF ;
+  }
+  .centercu{
+    background-color: #E0E7FF;
+    height: 40px;
+    width: 45px;
+    position: absolute;
+    top: 130px;
+    left:245px;
+  }
+  .outsidercu{
+    background-color: #E0E7FF;
+    height: 80px;
+    width: 50px;
+    position: absolute;
+    top: 110px;
+    left:290px;
+  }
+  .insiderC {
+    width: 180px;
+    height: 180px;
+    position:absolute;
+    top: 60px;
+    left: 110px;
+    border: 40px solid#4F77FF;
+    border-radius: 50%;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  .outsiderC{
+    width: 280px;
+    height: 280px;
+    position:absolute;
+    left: 60px;
+    border: 40px solid#4F77FF;
+    border-radius: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+  }
+  
+</style>
+</body>
+</html>
