@@ -1,0 +1,18 @@
+<div></div>
+<style>
+  body{
+    background: linear-gradient(to bottom, #63A3A0 50%, #FFFFFF 50%);
+    transform: rotate(deg);
+  }
+  div {
+    width: 80px;
+    height: 80px;
+    background: #FFFFFF;
+    border: 60px, solid #0B2429;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%);
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+  }
+</style>
