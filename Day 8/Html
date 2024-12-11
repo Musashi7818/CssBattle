@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="blueblk" id="b3"></div>
+<div class="redblk" id="b2"></div><div class="blueblk" id="b1"></div>
+<div class="redblk" id="b4"></div>
+<style>
+  body{
+    background: #FADE8B;
+  }
+  div{
+    position: absolute;
+  }
+  .blueblk {
+    width: 145px;
+    height: 180px;
+    background: #5DBCF9;
+  }
+  #b1{
+    top: 60px;
+    left: 30px;
+  }
+  #b3{
+    top: 60px;
+    left: 225px;
+  }
+  .redblk{
+    width: 140px;
+    height: 100px;
+    background: #C3463D;
+  }
+  #b2{
+    top: 25px;
+    left: 130px;
+  }
+  #b4{
+    top: 175px;
+    left: 130px;
+  }
+</style>
+  </body>
+</html>
