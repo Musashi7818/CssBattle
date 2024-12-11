@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+  </head>
+  <body>
+  <div class="fur" id="S1"></div>
+<div class="fur" id="S2"></div>
+<div class="fur" id="S3"></div>
+<div class="fur" id="S4"></div>
+<div class="fur" id="S5"></div>
+<div class="fur" id="S6"></div>
+<div class="fur" id="S7"></div>
+<div class="fur" id="S8"></div>
+<div class="fur" id="S9"></div>
+<div class="fur" id="S10"></div>
+<div class="fur" id="S11"></div>
+<div class="fur" id="S12"></div>
+<div class="fur" id="S13"></div>
+<div class="fur" id="S14"></div>
+<div class="fur" id="S15"></div>
+<div class="fur" id="S16"></div>
+<div class="fur" id="S17"></div>
+<div class="fur" id="S18"></div>
+<div class="fur" id="S19"></div>
+<div class="fur" id="S20"></div>
+<div id="Center"></div>
+<style>
+  body{
+    background: #FFF6D2;
+  }
+  div {
+    position: absolute;
+  }
+  #Center{
+    width: 150px;
+    height: 150px;
+    background: transparent;
+    border: 15px solid #67645E;
+    border-radius: 20px;
+    top: 60px;
+    left: 110px;
+  }
+  .fur{
+    height: 20px;
+    width: 13px;
+    background: #E88933;
+    border-radius: 35% 35% 0% 0%;
+  }
+  #S1, #S2, #S3, #S4, #S5{
+    top: 40px;
+  }
+  #S1, #S11{
+    left: 132px;
+  }
+  #S2, #S12{
+    left: 162px;
+  }
+  #S3, #S13{
+    left: 192px;
+  }
+  #S4, #S14{
+    left: 222px;
+  }
+  #S5, #S15{
+    left: 252px
+  }
+  #S11, #S12, #S13, #S14, #S15{
+    top: 240px;
+    transform: rotate(180deg)
+  }
+  #S6, #S7, #S8, #S9, #S10{
+    left: 293px;
+    transform: rotate(90deg);
+  }
+  #S6, #S16{
+    top: 80px;
+  }
+  #S7, #S17{
+    top: 110px;
+  }
+  #S8, #S18{
+    top: 140px;
+  }
+  #S9, #S19{
+    top: 170px;
+  }
+  #S10, #S20{
+    top: 200px
+  }
+  #S16, #S17, #S18, #S19, #S20{
+    transform: rotate(-90deg);
+    left: 95px;
+  }
+</style>
+  </body>
+</html>
