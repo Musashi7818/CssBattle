@@ -12,7 +12,7 @@
   </div>
   <style>
     body {
-      background-color: #FAE29E; /* Beige Background */
+      background-color: #FAE29E;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -24,7 +24,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      gap: 30px; /* Space between triangles */
+      gap: 30px;
     }
 
     .triangle {
@@ -34,13 +34,13 @@
     }
 
     .triangle-left {
-      border-width: 80px 80px 90px 0; /* Top, Right, Bottom, Left */
-      border-color: transparent #EA9A52 transparent transparent; /* Triangle to the right */
+      border-width: 80px 80px 90px 0;
+      border-color: transparent #EA9A52 transparent transparent;
     }
 
     .triangle-right {
-      border-width: 80px 0 85px 90px; /* Top, Right, Bottom, Left */
-      border-color: transparent transparent transparent #EA9A52; /* Triangle to the left */
+      border-width: 80px 0 85px 90px;
+      border-color: transparent transparent transparent #EA9A52;
     }
   </style>
 </body>
