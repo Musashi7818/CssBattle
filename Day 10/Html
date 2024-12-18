@@ -1,0 +1,38 @@
+<body>
+  <div class="container">
+    <div class="triangle triangle-left"></div>
+    <div class="triangle triangle-right"></div>
+  </div>
+  <style>
+    body {
+      background-color: #FAE29E; /* Beige Background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 30px; /* Space between triangles */
+    }
+
+    .triangle {
+      width: 0;
+      height: 0;
+      border-style: solid;
+    }
+
+    .triangle-left {
+      border-width: 80px 80px 90px 0; /* Top, Right, Bottom, Left */
+      border-color: transparent #EA9A52 transparent transparent; /* Triangle to the right */
+    }
+
+    .triangle-right {
+      border-width: 80px 0 85px 90px; /* Top, Right, Bottom, Left */
+      border-color: transparent transparent transparent #EA9A52; /* Triangle to the left */
+    }
+  </style>
