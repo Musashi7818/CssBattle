@@ -1,0 +1,2 @@
+background: conic-gradient(transparent + color) #to cut circles
+transform: rotate #to rotate my circles
