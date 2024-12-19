@@ -1,2 +1,2 @@
 background: linear-gradient(transparent + color) #to cut squares
-background: conic-gradient(transparent + color) #to cut circles
+clip-path: polygon(0 0, 100% 0, 100% 50%, 0 50%); #to cut circles border
