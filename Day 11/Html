@@ -1,0 +1,34 @@
+<div id="first"></div>
+<div id="second"></div>
+<div id="tird"></div>
+<div id="fourth"></div>
+<div id="fifth"></div>
+<style>
+  body{
+    background: #35312F;
+  }
+  div{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #CF81AF;
+  }
+  #first{
+    top: 70px;
+  }
+  #second{
+    left: 120px;
+  }
+  #first, #tird, #fifth{
+    left: 180px;
+  }
+  #second, #tird, #fourth{
+    top: 130px;
+  }
+  #fourth{
+    left: 240px;
+  }
+  #fifth{
+    top: 190px;
+  }
+</style>
