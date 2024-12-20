@@ -1,0 +1,26 @@
+<div id="one"></div>
+<div id="two"></div>
+<style>
+  body{
+    background: #3F4869;
+  }
+  div{
+    position: absolute;
+  }
+  #one{
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 30px #61A74E solid;
+    border-radius: 50%;
+    top: 70px;
+    left: 120px;
+  }
+  #two{
+    height: 80px;
+    width: 30px;
+    background: #61A74E;
+    top: 50px;
+    left: 185px;
+  }
+</style>
