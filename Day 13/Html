@@ -1,0 +1,45 @@
+<div class="C" id="One" ></div>
+<div class="C" id="Two"></div>
+<div class="L" id="Tird"></div>
+<div class="L" id="Fourth"></div>
+<style>
+  body{
+    background: #FADE8B
+  }
+  .L {
+    background: #61A74E;
+    position: absolute;
+  }
+  #Tird{
+    height: 160px;
+    width: 40px;
+    top: 15px;
+    left: 105px
+  }
+#Fourth{
+  width: 180px;
+  height: 170px;
+  background-color: transparent;
+  top: -10px;
+  left: 40px;
+  border: 40px solid #61A74E;
+  border-radius: 50%;
+  clip-path: polygon(50% 50%, 100% 50%, 100% 0, 50% 0);
+  transform: rotate(90deg)
+}
+  .C{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    border: 40px solid #61A74E;
+    border-radius: 50%;
+  }
+  #One{
+    top: 15px;
+    left: 215px;
+  }
+  #Two{
+    top: 165px;
+    left: 65px;
+  }
+</style>
